@@ -377,3 +377,23 @@ body {
 .mobile__hover__menu.active {
   display: flex;
 }
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  text-align: center;
+}
+.attribution a {
+  text-decoration: none;
+  color: var(--Medium_Gray);
+  font-weight: var(--fw_700);
+  font-size: 0.875rem;
+  line-height: 1.5;
+  transition: color 0.5s;
+
+  &:hover {
+    color: var(--Almost_Black);
+  }
+}
